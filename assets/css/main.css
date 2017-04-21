@@ -10,9 +10,12 @@ body{
 }
 
 .sprite-alcalde-de-chilca {
-    width: 243px;
-    height: 270px;
+    width: 233px;
+    height: 240px;
     background-position: -5px -5px;
+    margin-left: 210px;
+  
+    
 }
 
 .sprite-alejandra-aramayo {
@@ -58,6 +61,10 @@ body{
     width: 53px;
     height: 84px;
     background-position: -580px -265px;
+    display: inline-block;
+    position: absolute;
+    right: 65px;
+    top: 110px;
 }
 
 #encabezado{
@@ -166,4 +173,55 @@ ul{
     display: block;
     position: absolute;
     bottom: 0;
+}
+
+#editorial{
+    background-color: white;
+    width: 505px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 710px;
+    display: inline-block;
+}
+
+#titulo{
+    font-family: 'Roboto';
+    color: #E00109;
+    background-color: white;
+}
+
+#libertad{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #F9B3B5;
+    background-color:#FF0004;
+    width: 505px;
+    height: 45px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.publicacion3{
+    width: 505px;
+    position: relative;
+
+}
+
+.relato3{
+    font-family: 'Roboto';
+    font-size: 18px;
+    width: 210px;
+    height: 100px;
+    display: inline-block;
+    color: #B5CEE4;
+    background-color: #1363A9;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imagenfutbol{
+    display: absolute;
+    top: 0;
+    right: 0;
 }
